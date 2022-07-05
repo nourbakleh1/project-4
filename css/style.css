@@ -387,6 +387,7 @@ header nav ul li a:hover{
         grid-column-gap: 30px;
         grid-row-gap:40px;
     }
+    
 }
 @media (max-width:767px) 
 {
@@ -394,16 +395,16 @@ header nav ul li a:hover{
         display: flex;
         flex-direction: column;
         text-align: center;
-
     }
     .services .text p{
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     
     }
     .services .icon{
         margin: 0 0 30px;
         
     }
+    
 }
 /* end services */
 
