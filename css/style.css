@@ -396,8 +396,11 @@ header nav ul li a:hover{
         flex-direction: column;
         text-align: center;
     }
+    .services .items .text{
+        margin-left: 0;
+    }
     .services .text p{
-        margin-bottom: 0px;
+        margin-bottom: 30px;
     
     }
     .services .icon{
