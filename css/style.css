@@ -468,6 +468,14 @@ header nav ul li a:hover{
     margin-bottom: 25px;
     margin-left: 10px;
 }
+@media (max-width:450px) {
+    .design .design-content ul li{
+        
+        font-size: 12px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }    
+}
 .design .design-content ul li::before{
     
     font-family: "Font Awesome 5 Free";
@@ -527,6 +535,13 @@ header nav ul li a:hover{
 .portfolio .shuffle{
     display: flex;
     justify-content: center;
+}
+@media (max-width:450px) {
+    .portfolio .shuffle{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 .portfolio .shuffle li{
     padding: 10px;
@@ -1119,6 +1134,11 @@ header nav ul li a:hover{
         margin-bottom: 50px;
     }
 }
+@media (max-width:450px){
+    .pricing .pricing-items {
+        justify-content: center;
+    }
+}
 .pricing .pricing-content{
     text-align: center;
     background-color: #f6f6f6;
@@ -1564,12 +1584,14 @@ footer .footer-content p{
     color:white;
     text-transform: capitalize;
     word-spacing: 3px;
+    line-height: 1.6;
 
 }
 
 footer .footer-content p span{
     color:var(--main-color);
     margin:0 3px;
+
     
 }
 /* end footer */
